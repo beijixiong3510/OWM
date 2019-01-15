@@ -4,23 +4,21 @@ Code for **CelebA** in paper *[Continual Learning of Context-dependent Processin
 
 CelebFaces Attributes Dataset [(CelebA)]( http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) is a large-scale face attributes dataset with more than 200K celebrity images, each with 40 attribute annotations.
 
-## OS Requirements:
+## Requirements:
 
-Linux: Ubuntu 16.04
+- Linux: Ubuntu 16.04
 
-Cuda compilation tools, release 9.0, V9.0.176
+- cuda9.0 & cudnn6.0
 
-## Package  Requirements:
+- Python 3.5.4
 
-Python 3.5.4
+- torch 0.3.0 (pytorch)
 
-torch 0.3.0 (pytorch)
+- torchvision 0.2.0
 
-torchvision 0.2.0
+- numpy 1.15.1
 
-numpy 1.15.1
-
-scipy 1.0.0
+- scipy 1.0.0
 
 ## Instructions
 1. Deal with the data in http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
