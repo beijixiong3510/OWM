@@ -21,6 +21,6 @@ CelebFaces Attributes Dataset [(CelebA)]( http://mmlab.ie.cuhk.edu.hk/projects/C
 - scipy 1.0.0
 
 ## Instructions
-1. Deal with the data in http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
-2. Training the [ResNet50](https://github.com/beijixiong3510/OWM/tree/master/celebA/celebA_pytorch_50) to extract features of all data
+1. Download and deal with the data in http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
+2. To train a model, run celebA_main_torch.py ([ResNet50](https://github.com/beijixiong3510/OWM/tree/master/celebA/celebA_pytorch_50)) to extract features of all data
 3. Use the [CDP Code (PFC-like Module)](https://github.com/beijixiong3510/OWM/tree/master/celebA/celebA_PFC) to reproduce the result
