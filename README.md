@@ -11,6 +11,8 @@ Linux: Ubuntu 16.04
 
 Python 3.5.4
 
+tensorflow 1.5.0
+
 tensorflow-gpu 1.4.0
 
 numpy 1.15.1
