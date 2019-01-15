@@ -1,5 +1,5 @@
 # OWM
-Code for *Continual Learning of Context-dependent Processing in Neural Networks*
+Code for paper *[Continual Learning of Context-dependent Processing in Neural Networks](https://arxiv.org/abs/1810.01256)*
 
 ## OS Requirements:
 
