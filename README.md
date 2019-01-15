@@ -5,6 +5,8 @@ Code for Continual Learning of Context-dependent Processing in Neural Networks
 
 Linux: Ubuntu 16.04
 
+Cuda compilation tools, release 9.0, V9.0.176
+
 ## Package  Requirements:
 
 Python 3.5.4
