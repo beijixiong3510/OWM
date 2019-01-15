@@ -12,7 +12,7 @@ Cuda compilation tools, release 9.0, V9.0.176
 
 Python 3.5.4
 
-torch 0.3.0
+torch 0.3.0 (pytorch)
 
 torchvision 0.2.0
 
