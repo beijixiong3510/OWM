@@ -3,8 +3,6 @@ Code for Continual Learning of Context-dependent Processing in Neural Networks
 
 ## OS Requirements:
 
-These Code are supported by Linux operating systems. 
-
 Linux: Ubuntu 16.04
 
 ## Package  Requirements:
