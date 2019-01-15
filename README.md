@@ -12,7 +12,13 @@ Code for paper *[Continual Learning of Context-dependent Processing in Neural Ne
 
 - tensorflow-gpu 1.4.0
 
+- torch 0.3.0 (pytorch)
+
+- torchvision 0.2.0
+
 - numpy 1.15.1
+
+- scipy 1.0.0
 
 ## Acknowledgement
 [CAB](https://github.com/he-xu/CAB)
