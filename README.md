@@ -1,5 +1,5 @@
 # OWM
-Code for Continual Learning of Context-dependent Processing in Neural Networks
+Code for *Continual Learning of Context-dependent Processing in Neural Networks*
 
 ## OS Requirements:
 
