@@ -21,10 +21,14 @@ Code for paper *[Continual Learning of Context-dependent Processing in Neural Ne
 - scipy 1.0.0
 
 ## Acknowledgement
+[Pytorch](https://github.com/pytorch/examples)
+
+[Tensorflow](https://github.com/tensorflow/models)
+
 [CAB](https://github.com/he-xu/CAB)
 
 [ResNet](https://github.com/jiweibo/ImageNet)
 
 [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
 
-
+[CASIA Online and Offline Chinese Handwriting Databases](http://www.nlpr.ia.ac.cn/databases/handwriting/Home.html)
