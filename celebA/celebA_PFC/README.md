@@ -15,5 +15,5 @@ python CelabA_OWM_easy_task.py
 
 
 ## Context
-The contextual information was the embedding vectors of the corresponding task names trained by [gensim](https://radimrehurek.com/gensim/)  (wordvet.mat).
+The contextual information was the embedding vectors of the corresponding task names trained by [gensim](https://radimrehurek.com/gensim/)  ([wordvet.mat](https://github.com/beijixiong3510/OWM/blob/master/celebA/celebA_PFC/wordvet.mat)).
 
