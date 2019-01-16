@@ -30,3 +30,9 @@ python run_shuffled_3_mnist_3Layers.py
 ```
 python run_shuffled_10_mnist_3Layers.py
 ```
+
+### Code for [784-2000-2000-10] Layers ten Shuffled MNIST (~97.86%)
+
+```
+python run_shuffled_10_mnist_3Layers_2000.py
+```
