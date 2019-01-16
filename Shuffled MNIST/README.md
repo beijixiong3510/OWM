@@ -17,3 +17,9 @@ Code for **Shuffled MNIST** in paper *[Continual Learning of Context-dependent P
 
 - scipy 1.0.0
 
+## How to run the code
+
+### Code for [784-800-800-10] Layers three Shuffled MNIST
+
+python run_shuffled_3_mnist_3Layers.py
+
