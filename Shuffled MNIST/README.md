@@ -25,7 +25,7 @@ Code for **Shuffled MNIST** in paper *[Continual Learning of Context-dependent P
 python run_shuffled_3_mnist_3Layers.py
 ```
 
-### Code for [784-800-800-10] Layers ten Shuffled MNIST (~97.59%)
+### Code for [784-800-800-10] Layers ten Shuffled MNIST (~97.63%)
 
 ```
 python run_shuffled_10_mnist_3Layers.py
