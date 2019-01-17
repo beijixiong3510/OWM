@@ -77,7 +77,7 @@ def get_weight(shape, zeros=None):
         w = torch.from_numpy(w/(np.sqrt(sum(shape)/2.0)))
         w = w/torch.norm(w)
     else:
-        w = zeros(shape)
+        w = np.zeros(shape)
         w = torch.from_numpy(w)
     return Variable(w.type(dtype), requires_grad=True)
 
