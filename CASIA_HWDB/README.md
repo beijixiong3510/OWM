@@ -21,5 +21,5 @@ For the [Chinese character recognition](http://www.nlpr.ia.ac.cn/databases/handw
 
 ## Instructions
 1. Download and process the data in [CASIA Chinese Handwriting Databases](http://www.nlpr.ia.ac.cn/databases/handwriting/Home.html) or [HWDB1 in Baidu cloud disk](https://pan.baidu.com/s/1o84jIrg#list/path=%2F)
-2. To train a model, run [celebA_main_torch.py (ResNet18)](https://github.com/beijixiong3510/OWM/tree/master/CASIA_HWDB/CHW_ResNet18)) to extract features of all data
+2. To train a model, run [celebA_main_torch.py (ResNet18)](https://github.com/beijixiong3510/OWM/tree/master/CASIA_HWDB/CHW_ResNet18) to extract features of all data
 3. Use the [**CHW_OWM.py**](https://github.com/beijixiong3510/OWM/blob/master/CASIA_HWDB/CHW_OWM.py) to reproduce the result
