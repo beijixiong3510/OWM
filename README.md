@@ -1,5 +1,5 @@
 # OWM (Orthogonal Weights Modification)
-Code for paper *[Continual Learning of Context-dependent Processing in Neural Networks](https://arxiv.org/abs/1810.01256)*
+- Code for paper *[Continual Learning of Context-dependent Processing in Neural Networks](https://arxiv.org/abs/1810.01256)*
 
 ## Requirements:
 - Linux: Ubuntu 16.04
@@ -22,19 +22,19 @@ Code for paper *[Continual Learning of Context-dependent Processing in Neural Ne
 
 ## Acknowledgement
 
-[CAB](https://github.com/he-xu/CAB)
+- [CAB](https://github.com/he-xu/CAB)
 
-[CASIA Chinese Handwriting Databases](http://www.nlpr.ia.ac.cn/databases/handwriting/Home.html)
+- [CASIA Chinese Handwriting Databases](http://www.nlpr.ia.ac.cn/databases/handwriting/Home.html)
 
-[CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
+- [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
 
-[Pytorch](https://github.com/pytorch/examples)
+- [Pytorch](https://github.com/pytorch/examples)
 
-[ResNet](https://github.com/jiweibo/ImageNet)
+- [ResNet](https://github.com/jiweibo/ImageNet)
 
-[Tensorflow](https://github.com/tensorflow/models)
+- [Tensorflow](https://github.com/tensorflow/models)
 
-[Tensorflow and Chinese Handwritten Chinese Character Recognition](http://python.jobbole.com/87509/)
+- [Tensorflow and Chinese Handwritten Chinese Character Recognition](http://python.jobbole.com/87509/)
 
 
 
