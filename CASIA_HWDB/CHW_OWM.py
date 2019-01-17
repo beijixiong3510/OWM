@@ -1,5 +1,5 @@
 import torch.nn as nn
-from MLP_OWM.OWMLayer_two import *
+from OWMLayer_two import *
 import numpy as np
 import scipy.io as scio
 import copy
