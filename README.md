@@ -24,16 +24,17 @@ Code for paper *[Continual Learning of Context-dependent Processing in Neural Ne
 
 [CAB](https://github.com/he-xu/CAB)
 
-[CASIA Online and Offline Chinese Handwriting Databases](http://www.nlpr.ia.ac.cn/databases/handwriting/Home.html)
+[CASIA Chinese Handwriting Databases](http://www.nlpr.ia.ac.cn/databases/handwriting/Home.html)
 
 [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
-
 
 [Pytorch](https://github.com/pytorch/examples)
 
 [ResNet](https://github.com/jiweibo/ImageNet)
 
 [Tensorflow](https://github.com/tensorflow/models)
+
+[Tensorflow and Chinese Handwritten Chinese Character Recognition](http://python.jobbole.com/87509/)
 
 
 
