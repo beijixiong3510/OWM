@@ -28,9 +28,10 @@ Code for paper *[Continual Learning of Context-dependent Processing in Neural Ne
 
 [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
 
-[ResNet](https://github.com/jiweibo/ImageNet)
 
 [Pytorch](https://github.com/pytorch/examples)
+
+[ResNet](https://github.com/jiweibo/ImageNet)
 
 [Tensorflow](https://github.com/tensorflow/models)
 
