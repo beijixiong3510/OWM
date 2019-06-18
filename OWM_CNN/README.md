@@ -24,3 +24,10 @@
 
 - [Overcoming catastrophic forgetting via model adaptation](https://openreview.net/pdf?id=ryGvcoA5YX)
 
+## How to run the code
+
+### Code for disjoint 5 Groups CIFAR-10 task (52.8%)
+
+```
+python run_cifar_5Tasks.py
+```
