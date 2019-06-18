@@ -1,0 +1,331 @@
+Arguments =
+	nepochs: 25
+	experiment: cifar-10
+	seed: 0
+	approach: OWM
+	lr: 0.025
+	parameter:
+====================================================================================================
+2019-04-28 11:22:02 GPU  2
+====================================================================================================
+Load data...
+Task order = [0, 1, 2, 3, 4, 5]
+Input size = [3, 32, 32]
+Task info = [(0, 2), (1, 2), (2, 2), (3, 2), (4, 2)]
+Inits...
+----------------------------------------------------------------------------------------------------
+Net(
+  (relu): ReLU()
+  (maxpool): MaxPool2d(kernel_size=(2, 2), stride=(2, 2), dilation=(1, 1))
+  (drop1): Dropout(p=0.2)
+  (padding): ReplicationPad2d((1, 1, 1, 1))
+  (c1): Conv2d (3, 64, kernel_size=(2, 2), stride=(1, 1), bias=False)
+  (c2): Conv2d (64, 128, kernel_size=(2, 2), stride=(1, 1), bias=False)
+  (c3): Conv2d (128, 256, kernel_size=(2, 2), stride=(1, 1), bias=False)
+  (fc1): Linear(in_features=4096, out_features=1000)
+  (fc2): Linear(in_features=1000, out_features=1000)
+  (fc3): Linear(in_features=1000, out_features=10)
+)
+Dimensions = torch.Size([64, 3, 2, 2]) torch.Size([128, 64, 2, 2]) torch.Size([256, 128, 2, 2]) torch.Size([1000, 4096]) torch.Size([1000, 1000]) torch.Size([10, 1000])
+Num parameters = 5.3M
+----------------------------------------------------------------------------------------------------
+<torch.optim.sgd.SGD object at 0x7f86aa433208> = weight_decay: 0, dampening: 0, momentum: 0.9, nesterov: False, lr: 0.025,
+----------------------------------------------------------------------------------------------------
+****************************************************************************************************
+Task  1 (cifar10->>>0-1)
+****************************************************************************************************
+| [1/5], Epoch 1/25, | Train: loss=0.553, acc=91.93% | Valid: loss=0.558, acc=91.55% |
+>>> Test on All Task:->>> Max_acc : 18.31%  Curr_acc : 18.31%<<<
+| [1/5], Epoch 2/25, | Train: loss=0.433, acc=94.86% | Valid: loss=0.459, acc=93.10% |
+>>> Test on All Task:->>> Max_acc : 18.62%  Curr_acc : 18.62%<<<
+| [1/5], Epoch 3/25, | Train: loss=0.369, acc=96.14% | Valid: loss=0.408, acc=93.70% |
+>>> Test on All Task:->>> Max_acc : 18.74%  Curr_acc : 18.74%<<<
+| [1/5], Epoch 4/25, | Train: loss=0.327, acc=96.91% | Valid: loss=0.379, acc=94.05% |
+>>> Test on All Task:->>> Max_acc : 18.81%  Curr_acc : 18.81%<<<
+| [1/5], Epoch 5/25, | Train: loss=0.299, acc=97.50% | Valid: loss=0.362, acc=94.20% |
+>>> Test on All Task:->>> Max_acc : 18.84%  Curr_acc : 18.84%<<<
+| [1/5], Epoch 6/25, | Train: loss=0.279, acc=98.10% | Valid: loss=0.351, acc=94.10% |
+>>> Test on All Task:->>> Max_acc : 18.84%  Curr_acc : 18.82%<<<
+| [1/5], Epoch 7/25, | Train: loss=0.261, acc=98.49% | Valid: loss=0.341, acc=94.35% |
+>>> Test on All Task:->>> Max_acc : 18.87%  Curr_acc : 18.87%<<<
+| [1/5], Epoch 8/25, | Train: loss=0.247, acc=98.83% | Valid: loss=0.333, acc=94.40% |
+>>> Test on All Task:->>> Max_acc : 18.88%  Curr_acc : 18.88%<<<
+| [1/5], Epoch 9/25, | Train: loss=0.235, acc=99.16% | Valid: loss=0.327, acc=94.50% |
+>>> Test on All Task:->>> Max_acc : 18.90%  Curr_acc : 18.90%<<<
+| [1/5], Epoch 10/25, | Train: loss=0.224, acc=99.35% | Valid: loss=0.319, acc=94.45% |
+>>> Test on All Task:->>> Max_acc : 18.90%  Curr_acc : 18.89%<<<
+| [1/5], Epoch 11/25, | Train: loss=0.216, acc=99.50% | Valid: loss=0.315, acc=94.60% |
+>>> Test on All Task:->>> Max_acc : 18.92%  Curr_acc : 18.92%<<<
+| [1/5], Epoch 12/25, | Train: loss=0.209, acc=99.58% | Valid: loss=0.311, acc=94.55% |
+>>> Test on All Task:->>> Max_acc : 18.92%  Curr_acc : 18.91%<<<
+| [1/5], Epoch 13/25, | Train: loss=0.203, acc=99.66% | Valid: loss=0.308, acc=94.65% |
+>>> Test on All Task:->>> Max_acc : 18.93%  Curr_acc : 18.93%<<<
+| [1/5], Epoch 14/25, | Train: loss=0.198, acc=99.78% | Valid: loss=0.306, acc=94.50% |
+>>> Test on All Task:->>> Max_acc : 18.93%  Curr_acc : 18.90%<<<
+| [1/5], Epoch 15/25, | Train: loss=0.193, acc=99.84% | Valid: loss=0.303, acc=94.70% |
+>>> Test on All Task:->>> Max_acc : 18.94%  Curr_acc : 18.94%<<<
+| [1/5], Epoch 16/25, | Train: loss=0.190, acc=99.85% | Valid: loss=0.302, acc=94.65% |
+>>> Test on All Task:->>> Max_acc : 18.94%  Curr_acc : 18.93%<<<
+| [1/5], Epoch 17/25, | Train: loss=0.187, acc=99.88% | Valid: loss=0.300, acc=94.55% |
+>>> Test on All Task:->>> Max_acc : 18.94%  Curr_acc : 18.91%<<<
+| [1/5], Epoch 18/25, | Train: loss=0.184, acc=99.87% | Valid: loss=0.299, acc=94.60% |
+>>> Test on All Task:->>> Max_acc : 18.94%  Curr_acc : 18.92%<<<
+| [1/5], Epoch 19/25, | Train: loss=0.182, acc=99.91% | Valid: loss=0.298, acc=94.85% |
+>>> Test on All Task:->>> Max_acc : 18.97%  Curr_acc : 18.97%<<<
+| [1/5], Epoch 20/25, | Train: loss=0.180, acc=99.95% | Valid: loss=0.296, acc=94.95% |
+>>> Test on All Task:->>> Max_acc : 18.99%  Curr_acc : 18.99%<<<
+| [1/5], Epoch 21/25, | Train: loss=0.177, acc=99.96% | Valid: loss=0.295, acc=94.90% |
+>>> Test on All Task:->>> Max_acc : 18.99%  Curr_acc : 18.98%<<<
+| [1/5], Epoch 22/25, | Train: loss=0.176, acc=99.96% | Valid: loss=0.295, acc=95.00% |
+>>> Test on All Task:->>> Max_acc : 19.00%  Curr_acc : 19.00%<<<
+| [1/5], Epoch 23/25, | Train: loss=0.174, acc=99.96% | Valid: loss=0.294, acc=95.00% |
+>>> Test on All Task:->>> Max_acc : 19.00%  Curr_acc : 19.00%<<<
+| [1/5], Epoch 24/25, | Train: loss=0.173, acc=99.97% | Valid: loss=0.293, acc=94.95% |
+>>> Test on All Task:->>> Max_acc : 19.00%  Curr_acc : 18.99%<<<
+| [1/5], Epoch 25/25, | Train: loss=0.172, acc=99.97% | Valid: loss=0.293, acc=94.90% |
+>>> Test on All Task:->>> Max_acc : 19.00%  Curr_acc : 18.98%<<<
+----------------------------------------------------------------------------------------------------
+>>> Test on task  0 - cifar10->>>0-1 : loss=0.295, acc=95.00% <<<
+****************************************************************************************************
+Task  2 (cifar10->>>2-3)
+****************************************************************************************************
+| [2/5], Epoch 1/25, | Train: loss=2.863, acc=0.37% | Valid: loss=2.900, acc= 0.35% |
+>>> Test on All Task:->>> Max_acc : 19.00%  Curr_acc : 18.92%<<<
+| [2/5], Epoch 2/25, | Train: loss=1.766, acc=41.34% | Valid: loss=1.819, acc=39.60% |
+>>> Test on All Task:->>> Max_acc : 26.55%  Curr_acc : 26.55%<<<
+| [2/5], Epoch 3/25, | Train: loss=1.311, acc=61.97% | Valid: loss=1.397, acc=56.35% |
+>>> Test on All Task:->>> Max_acc : 29.16%  Curr_acc : 29.16%<<<
+| [2/5], Epoch 4/25, | Train: loss=1.108, acc=70.19% | Valid: loss=1.229, acc=62.75% |
+>>> Test on All Task:->>> Max_acc : 30.00%  Curr_acc : 30.00%<<<
+| [2/5], Epoch 5/25, | Train: loss=0.985, acc=75.17% | Valid: loss=1.128, acc=67.00% |
+>>> Test on All Task:->>> Max_acc : 30.39%  Curr_acc : 30.39%<<<
+| [2/5], Epoch 6/25, | Train: loss=0.902, acc=78.95% | Valid: loss=1.066, acc=68.55% |
+>>> Test on All Task:->>> Max_acc : 30.39%  Curr_acc : 30.33%<<<
+| [2/5], Epoch 7/25, | Train: loss=0.841, acc=81.91% | Valid: loss=1.016, acc=71.75% |
+>>> Test on All Task:->>> Max_acc : 30.67%  Curr_acc : 30.67%<<<
+| [2/5], Epoch 8/25, | Train: loss=0.790, acc=83.90% | Valid: loss=0.977, acc=72.60% |
+>>> Test on All Task:->>> Max_acc : 30.67%  Curr_acc : 30.58%<<<
+| [2/5], Epoch 9/25, | Train: loss=0.748, acc=85.56% | Valid: loss=0.944, acc=73.90% |
+>>> Test on All Task:->>> Max_acc : 30.67%  Curr_acc : 30.62%<<<
+| [2/5], Epoch 10/25, | Train: loss=0.709, acc=87.11% | Valid: loss=0.913, acc=75.20% |
+>>> Test on All Task:->>> Max_acc : 30.70%  Curr_acc : 30.70%<<<
+| [2/5], Epoch 11/25, | Train: loss=0.679, acc=88.44% | Valid: loss=0.892, acc=75.40% |
+>>> Test on All Task:->>> Max_acc : 30.70%  Curr_acc : 30.64%<<<
+| [2/5], Epoch 12/25, | Train: loss=0.651, acc=89.54% | Valid: loss=0.874, acc=76.15% |
+>>> Test on All Task:->>> Max_acc : 30.70%  Curr_acc : 30.54%<<<
+| [2/5], Epoch 13/25, | Train: loss=0.627, acc=90.74% | Valid: loss=0.861, acc=76.65% |
+>>> Test on All Task:->>> Max_acc : 30.70%  Curr_acc : 30.44%<<<
+| [2/5], Epoch 14/25, | Train: loss=0.602, acc=91.57% | Valid: loss=0.847, acc=76.85% |
+>>> Test on All Task:->>> Max_acc : 30.70%  Curr_acc : 30.37%<<<
+| [2/5], Epoch 15/25, | Train: loss=0.582, acc=92.50% | Valid: loss=0.835, acc=76.65% |
+>>> Test on All Task:->>> Max_acc : 30.70%  Curr_acc : 30.31%<<<
+| [2/5], Epoch 16/25, | Train: loss=0.565, acc=93.05% | Valid: loss=0.825, acc=77.25% |
+>>> Test on All Task:->>> Max_acc : 30.70%  Curr_acc : 30.35%<<<
+| [2/5], Epoch 17/25, | Train: loss=0.548, acc=93.76% | Valid: loss=0.816, acc=77.95% |
+>>> Test on All Task:->>> Max_acc : 30.70%  Curr_acc : 30.42%<<<
+| [2/5], Epoch 18/25, | Train: loss=0.533, acc=94.30% | Valid: loss=0.808, acc=78.20% |
+>>> Test on All Task:->>> Max_acc : 30.70%  Curr_acc : 30.34%<<<
+| [2/5], Epoch 19/25, | Train: loss=0.519, acc=95.10% | Valid: loss=0.801, acc=78.30% |
+>>> Test on All Task:->>> Max_acc : 30.70%  Curr_acc : 30.31%<<<
+| [2/5], Epoch 20/25, | Train: loss=0.507, acc=95.47% | Valid: loss=0.796, acc=78.55% |
+>>> Test on All Task:->>> Max_acc : 30.70%  Curr_acc : 30.27%<<<
+| [2/5], Epoch 21/25, | Train: loss=0.496, acc=95.79% | Valid: loss=0.790, acc=78.75% |
+>>> Test on All Task:->>> Max_acc : 30.70%  Curr_acc : 30.28%<<<
+| [2/5], Epoch 22/25, | Train: loss=0.486, acc=96.12% | Valid: loss=0.785, acc=78.25% |
+>>> Test on All Task:->>> Max_acc : 30.70%  Curr_acc : 30.15%<<<
+| [2/5], Epoch 23/25, | Train: loss=0.476, acc=96.37% | Valid: loss=0.782, acc=78.55% |
+>>> Test on All Task:->>> Max_acc : 30.70%  Curr_acc : 30.10%<<<
+| [2/5], Epoch 24/25, | Train: loss=0.468, acc=96.64% | Valid: loss=0.781, acc=78.30% |
+>>> Test on All Task:->>> Max_acc : 30.70%  Curr_acc : 30.05%<<<
+| [2/5], Epoch 25/25, | Train: loss=0.461, acc=96.79% | Valid: loss=0.776, acc=78.55% |
+>>> Test on All Task:->>> Max_acc : 30.70%  Curr_acc : 30.03%<<<
+----------------------------------------------------------------------------------------------------
+>>> Test on task  0 - cifar10->>>0-1 : loss=0.785, acc=78.30% <<<
+>>> Test on task  1 - cifar10->>>2-3 : loss=0.913, acc=75.20% <<<
+****************************************************************************************************
+Task  3 (cifar10->>>4-5)
+****************************************************************************************************
+| [3/5], Epoch 1/25, | Train: loss=3.185, acc=0.00% | Valid: loss=3.204, acc= 0.00% |
+>>> Test on All Task:->>> Max_acc : 30.70%  Curr_acc : 30.68%<<<
+| [3/5], Epoch 2/25, | Train: loss=3.031, acc=0.00% | Valid: loss=3.057, acc= 0.00% |
+>>> Test on All Task:->>> Max_acc : 30.70%  Curr_acc : 30.58%<<<
+| [3/5], Epoch 3/25, | Train: loss=2.851, acc=0.13% | Valid: loss=2.885, acc= 0.20% |
+>>> Test on All Task:->>> Max_acc : 30.70%  Curr_acc : 30.48%<<<
+| [3/5], Epoch 4/25, | Train: loss=2.609, acc=3.73% | Valid: loss=2.657, acc= 3.65% |
+>>> Test on All Task:->>> Max_acc : 30.83%  Curr_acc : 30.83%<<<
+| [3/5], Epoch 5/25, | Train: loss=2.298, acc=15.34% | Valid: loss=2.366, acc=13.55% |
+>>> Test on All Task:->>> Max_acc : 32.33%  Curr_acc : 32.33%<<<
+| [3/5], Epoch 6/25, | Train: loss=1.956, acc=31.95% | Valid: loss=2.047, acc=29.15% |
+>>> Test on All Task:->>> Max_acc : 34.48%  Curr_acc : 34.48%<<<
+| [3/5], Epoch 7/25, | Train: loss=1.657, acc=46.42% | Valid: loss=1.774, acc=42.60% |
+>>> Test on All Task:->>> Max_acc : 36.05%  Curr_acc : 36.05%<<<
+| [3/5], Epoch 8/25, | Train: loss=1.431, acc=57.03% | Valid: loss=1.573, acc=52.20% |
+>>> Test on All Task:->>> Max_acc : 36.82%  Curr_acc : 36.82%<<<
+| [3/5], Epoch 9/25, | Train: loss=1.275, acc=64.19% | Valid: loss=1.440, acc=58.30% |
+>>> Test on All Task:->>> Max_acc : 37.29%  Curr_acc : 37.29%<<<
+| [3/5], Epoch 10/25, | Train: loss=1.157, acc=69.54% | Valid: loss=1.342, acc=63.30% |
+>>> Test on All Task:->>> Max_acc : 37.55%  Curr_acc : 37.55%<<<
+| [3/5], Epoch 11/25, | Train: loss=1.064, acc=73.33% | Valid: loss=1.269, acc=66.10% |
+>>> Test on All Task:->>> Max_acc : 37.55%  Curr_acc : 37.52%<<<
+| [3/5], Epoch 12/25, | Train: loss=0.998, acc=76.08% | Valid: loss=1.218, acc=68.10% |
+>>> Test on All Task:->>> Max_acc : 37.55%  Curr_acc : 37.34%<<<
+| [3/5], Epoch 13/25, | Train: loss=0.939, acc=78.56% | Valid: loss=1.173, acc=69.60% |
+>>> Test on All Task:->>> Max_acc : 37.55%  Curr_acc : 37.06%<<<
+| [3/5], Epoch 14/25, | Train: loss=0.889, acc=80.29% | Valid: loss=1.138, acc=71.45% |
+>>> Test on All Task:->>> Max_acc : 37.55%  Curr_acc : 37.08%<<<
+| [3/5], Epoch 15/25, | Train: loss=0.849, acc=82.00% | Valid: loss=1.104, acc=72.95% |
+>>> Test on All Task:->>> Max_acc : 37.55%  Curr_acc : 37.06%<<<
+| [3/5], Epoch 16/25, | Train: loss=0.811, acc=83.64% | Valid: loss=1.077, acc=73.60% |
+>>> Test on All Task:->>> Max_acc : 37.55%  Curr_acc : 36.77%<<<
+| [3/5], Epoch 17/25, | Train: loss=0.780, acc=84.82% | Valid: loss=1.058, acc=74.30% |
+>>> Test on All Task:->>> Max_acc : 37.55%  Curr_acc : 36.58%<<<
+| [3/5], Epoch 18/25, | Train: loss=0.750, acc=85.76% | Valid: loss=1.041, acc=74.70% |
+>>> Test on All Task:->>> Max_acc : 37.55%  Curr_acc : 36.36%<<<
+| [3/5], Epoch 19/25, | Train: loss=0.725, acc=86.75% | Valid: loss=1.026, acc=75.20% |
+>>> Test on All Task:->>> Max_acc : 37.55%  Curr_acc : 36.18%<<<
+| [3/5], Epoch 20/25, | Train: loss=0.703, acc=87.58% | Valid: loss=1.008, acc=75.90% |
+>>> Test on All Task:->>> Max_acc : 37.55%  Curr_acc : 36.10%<<<
+| [3/5], Epoch 21/25, | Train: loss=0.683, acc=88.45% | Valid: loss=0.996, acc=76.15% |
+>>> Test on All Task:->>> Max_acc : 37.55%  Curr_acc : 35.95%<<<
+| [3/5], Epoch 22/25, | Train: loss=0.666, acc=89.33% | Valid: loss=0.985, acc=76.70% |
+>>> Test on All Task:->>> Max_acc : 37.55%  Curr_acc : 35.87%<<<
+| [3/5], Epoch 23/25, | Train: loss=0.650, acc=89.90% | Valid: loss=0.974, acc=77.30% |
+>>> Test on All Task:->>> Max_acc : 37.55%  Curr_acc : 35.91%<<<
+| [3/5], Epoch 24/25, | Train: loss=0.636, acc=90.32% | Valid: loss=0.964, acc=77.25% |
+>>> Test on All Task:->>> Max_acc : 37.55%  Curr_acc : 35.77%<<<
+| [3/5], Epoch 25/25, | Train: loss=0.623, acc=90.75% | Valid: loss=0.954, acc=78.05% |
+>>> Test on All Task:->>> Max_acc : 37.55%  Curr_acc : 35.85%<<<
+----------------------------------------------------------------------------------------------------
+>>> Test on task  0 - cifar10->>>0-1 : loss=0.768, acc=80.30% <<<
+>>> Test on task  1 - cifar10->>>2-3 : loss=1.627, acc=44.15% <<<
+>>> Test on task  2 - cifar10->>>4-5 : loss=1.342, acc=63.30% <<<
+****************************************************************************************************
+Task  4 (cifar10->>>6-7)
+****************************************************************************************************
+| [4/5], Epoch 1/25, | Train: loss=3.116, acc=0.00% | Valid: loss=3.128, acc= 0.00% |
+>>> Test on All Task:->>> Max_acc : 37.55%  Curr_acc : 37.48%<<<
+| [4/5], Epoch 2/25, | Train: loss=2.976, acc=0.00% | Valid: loss=2.989, acc= 0.00% |
+>>> Test on All Task:->>> Max_acc : 37.55%  Curr_acc : 37.40%<<<
+| [4/5], Epoch 3/25, | Train: loss=2.835, acc=0.00% | Valid: loss=2.851, acc= 0.00% |
+>>> Test on All Task:->>> Max_acc : 37.55%  Curr_acc : 37.49%<<<
+| [4/5], Epoch 4/25, | Train: loss=2.663, acc=0.37% | Valid: loss=2.679, acc= 0.40% |
+>>> Test on All Task:->>> Max_acc : 37.55%  Curr_acc : 37.46%<<<
+| [4/5], Epoch 5/25, | Train: loss=2.423, acc=5.23% | Valid: loss=2.438, acc= 5.55% |
+>>> Test on All Task:->>> Max_acc : 38.53%  Curr_acc : 38.53%<<<
+| [4/5], Epoch 6/25, | Train: loss=2.083, acc=21.96% | Valid: loss=2.099, acc=22.40% |
+>>> Test on All Task:->>> Max_acc : 41.56%  Curr_acc : 41.56%<<<
+| [4/5], Epoch 7/25, | Train: loss=1.698, acc=42.81% | Valid: loss=1.717, acc=42.30% |
+>>> Test on All Task:->>> Max_acc : 44.62%  Curr_acc : 44.62%<<<
+| [4/5], Epoch 8/25, | Train: loss=1.377, acc=59.07% | Valid: loss=1.402, acc=57.90% |
+>>> Test on All Task:->>> Max_acc : 46.01%  Curr_acc : 46.01%<<<
+| [4/5], Epoch 9/25, | Train: loss=1.158, acc=68.18% | Valid: loss=1.194, acc=67.20% |
+>>> Test on All Task:->>> Max_acc : 46.19%  Curr_acc : 46.19%<<<
+| [4/5], Epoch 10/25, | Train: loss=1.016, acc=74.07% | Valid: loss=1.063, acc=71.85% |
+>>> Test on All Task:->>> Max_acc : 46.19%  Curr_acc : 45.88%<<<
+| [4/5], Epoch 11/25, | Train: loss=0.917, acc=77.59% | Valid: loss=0.975, acc=74.30% |
+>>> Test on All Task:->>> Max_acc : 46.19%  Curr_acc : 45.38%<<<
+| [4/5], Epoch 12/25, | Train: loss=0.842, acc=80.28% | Valid: loss=0.911, acc=77.20% |
+>>> Test on All Task:->>> Max_acc : 46.19%  Curr_acc : 45.19%<<<
+| [4/5], Epoch 13/25, | Train: loss=0.781, acc=82.25% | Valid: loss=0.860, acc=78.35% |
+>>> Test on All Task:->>> Max_acc : 46.19%  Curr_acc : 44.63%<<<
+| [4/5], Epoch 14/25, | Train: loss=0.734, acc=83.30% | Valid: loss=0.821, acc=79.80% |
+>>> Test on All Task:->>> Max_acc : 46.19%  Curr_acc : 44.12%<<<
+| [4/5], Epoch 15/25, | Train: loss=0.696, acc=84.53% | Valid: loss=0.794, acc=81.10% |
+>>> Test on All Task:->>> Max_acc : 46.19%  Curr_acc : 44.00%<<<
+| [4/5], Epoch 16/25, | Train: loss=0.663, acc=85.77% | Valid: loss=0.769, acc=81.70% |
+>>> Test on All Task:->>> Max_acc : 46.19%  Curr_acc : 43.87%<<<
+| [4/5], Epoch 17/25, | Train: loss=0.634, acc=86.78% | Valid: loss=0.748, acc=82.30% |
+>>> Test on All Task:->>> Max_acc : 46.19%  Curr_acc : 43.69%<<<
+| [4/5], Epoch 18/25, | Train: loss=0.611, acc=87.52% | Valid: loss=0.732, acc=82.80% |
+>>> Test on All Task:->>> Max_acc : 46.19%  Curr_acc : 43.55%<<<
+| [4/5], Epoch 19/25, | Train: loss=0.589, acc=88.04% | Valid: loss=0.715, acc=83.45% |
+>>> Test on All Task:->>> Max_acc : 46.19%  Curr_acc : 43.30%<<<
+| [4/5], Epoch 20/25, | Train: loss=0.569, acc=88.72% | Valid: loss=0.702, acc=84.10% |
+>>> Test on All Task:->>> Max_acc : 46.19%  Curr_acc : 43.22%<<<
+| [4/5], Epoch 21/25, | Train: loss=0.552, acc=89.31% | Valid: loss=0.689, acc=84.50% |
+>>> Test on All Task:->>> Max_acc : 46.19%  Curr_acc : 43.11%<<<
+| [4/5], Epoch 22/25, | Train: loss=0.537, acc=89.77% | Valid: loss=0.679, acc=84.60% |
+>>> Test on All Task:->>> Max_acc : 46.19%  Curr_acc : 42.96%<<<
+| [4/5], Epoch 23/25, | Train: loss=0.524, acc=90.19% | Valid: loss=0.669, acc=84.90% |
+>>> Test on All Task:->>> Max_acc : 46.19%  Curr_acc : 42.91%<<<
+| [4/5], Epoch 24/25, | Train: loss=0.512, acc=90.54% | Valid: loss=0.659, acc=85.20% |
+>>> Test on All Task:->>> Max_acc : 46.19%  Curr_acc : 42.77%<<<
+| [4/5], Epoch 25/25, | Train: loss=0.501, acc=90.93% | Valid: loss=0.652, acc=85.45% |
+>>> Test on All Task:->>> Max_acc : 46.19%  Curr_acc : 42.76%<<<
+----------------------------------------------------------------------------------------------------
+>>> Test on task  0 - cifar10->>>0-1 : loss=0.791, acc=80.10% <<<
+>>> Test on task  1 - cifar10->>>2-3 : loss=1.685, acc=42.45% <<<
+>>> Test on task  2 - cifar10->>>4-5 : loss=1.719, acc=41.20% <<<
+>>> Test on task  3 - cifar10->>>6-7 : loss=1.194, acc=67.20% <<<
+****************************************************************************************************
+Task  5 (cifar10->>>8-9)
+****************************************************************************************************
+| [5/5], Epoch 1/25, | Train: loss=3.379, acc=0.00% | Valid: loss=3.388, acc= 0.00% |
+>>> Test on All Task:->>> Max_acc : 46.26%  Curr_acc : 46.26%<<<
+| [5/5], Epoch 2/25, | Train: loss=3.244, acc=0.00% | Valid: loss=3.255, acc= 0.00% |
+>>> Test on All Task:->>> Max_acc : 46.26%  Curr_acc : 46.25%<<<
+| [5/5], Epoch 3/25, | Train: loss=3.101, acc=0.00% | Valid: loss=3.116, acc= 0.00% |
+>>> Test on All Task:->>> Max_acc : 46.26%  Curr_acc : 46.07%<<<
+| [5/5], Epoch 4/25, | Train: loss=2.935, acc=0.00% | Valid: loss=2.954, acc= 0.00% |
+>>> Test on All Task:->>> Max_acc : 46.26%  Curr_acc : 46.08%<<<
+| [5/5], Epoch 5/25, | Train: loss=2.729, acc=0.50% | Valid: loss=2.755, acc= 0.40% |
+>>> Test on All Task:->>> Max_acc : 46.26%  Curr_acc : 46.06%<<<
+| [5/5], Epoch 6/25, | Train: loss=2.477, acc=6.28% | Valid: loss=2.511, acc= 5.25% |
+>>> Test on All Task:->>> Max_acc : 46.74%  Curr_acc : 46.74%<<<
+| [5/5], Epoch 7/25, | Train: loss=2.193, acc=19.34% | Valid: loss=2.240, acc=17.65% |
+>>> Test on All Task:->>> Max_acc : 48.79%  Curr_acc : 48.79%<<<
+| [5/5], Epoch 8/25, | Train: loss=1.918, acc=33.64% | Valid: loss=1.979, acc=32.50% |
+>>> Test on All Task:->>> Max_acc : 51.01%  Curr_acc : 51.01%<<<
+| [5/5], Epoch 9/25, | Train: loss=1.694, acc=45.25% | Valid: loss=1.767, acc=41.90% |
+>>> Test on All Task:->>> Max_acc : 52.03%  Curr_acc : 52.03%<<<
+| [5/5], Epoch 10/25, | Train: loss=1.523, acc=53.54% | Valid: loss=1.607, acc=49.80% |
+>>> Test on All Task:->>> Max_acc : 52.59%  Curr_acc : 52.59%<<<
+| [5/5], Epoch 11/25, | Train: loss=1.392, acc=59.37% | Valid: loss=1.486, acc=55.65% |
+>>> Test on All Task:->>> Max_acc : 52.68%  Curr_acc : 52.68%<<<
+| [5/5], Epoch 12/25, | Train: loss=1.289, acc=63.56% | Valid: loss=1.393, acc=60.35% |
+>>> Test on All Task:->>> Max_acc : 52.74%  Curr_acc : 52.74%<<<
+| [5/5], Epoch 13/25, | Train: loss=1.204, acc=66.95% | Valid: loss=1.317, acc=64.10% |
+>>> Test on All Task:->>> Max_acc : 52.83%  Curr_acc : 52.83%<<<
+| [5/5], Epoch 14/25, | Train: loss=1.136, acc=69.83% | Valid: loss=1.258, acc=66.65% |
+>>> Test on All Task:->>> Max_acc : 52.83%  Curr_acc : 52.71%<<<
+| [5/5], Epoch 15/25, | Train: loss=1.080, acc=72.03% | Valid: loss=1.210, acc=68.15% |
+>>> Test on All Task:->>> Max_acc : 52.83%  Curr_acc : 52.48%<<<
+| [5/5], Epoch 16/25, | Train: loss=1.032, acc=73.98% | Valid: loss=1.169, acc=69.80% |
+>>> Test on All Task:->>> Max_acc : 52.83%  Curr_acc : 52.34%<<<
+| [5/5], Epoch 17/25, | Train: loss=0.989, acc=75.57% | Valid: loss=1.131, acc=71.40% |
+>>> Test on All Task:->>> Max_acc : 52.83%  Curr_acc : 52.15%<<<
+| [5/5], Epoch 18/25, | Train: loss=0.953, acc=77.05% | Valid: loss=1.101, acc=72.35% |
+>>> Test on All Task:->>> Max_acc : 52.83%  Curr_acc : 51.81%<<<
+| [5/5], Epoch 19/25, | Train: loss=0.921, acc=78.22% | Valid: loss=1.077, acc=73.75% |
+>>> Test on All Task:->>> Max_acc : 52.83%  Curr_acc : 51.85%<<<
+| [5/5], Epoch 20/25, | Train: loss=0.893, acc=79.18% | Valid: loss=1.056, acc=75.15% |
+>>> Test on All Task:->>> Max_acc : 52.83%  Curr_acc : 51.77%<<<
+| [5/5], Epoch 21/25, | Train: loss=0.869, acc=80.24% | Valid: loss=1.036, acc=75.75% |
+>>> Test on All Task:->>> Max_acc : 52.83%  Curr_acc : 51.59%<<<
+| [5/5], Epoch 22/25, | Train: loss=0.846, acc=81.10% | Valid: loss=1.018, acc=76.70% |
+>>> Test on All Task:->>> Max_acc : 52.83%  Curr_acc : 51.42%<<<
+| [5/5], Epoch 23/25, | Train: loss=0.827, acc=81.77% | Valid: loss=1.002, acc=77.05% |
+>>> Test on All Task:->>> Max_acc : 52.83%  Curr_acc : 51.23%<<<
+| [5/5], Epoch 24/25, | Train: loss=0.810, acc=82.32% | Valid: loss=0.989, acc=77.50% |
+>>> Test on All Task:->>> Max_acc : 52.83%  Curr_acc : 50.97%<<<
+| [5/5], Epoch 25/25, | Train: loss=0.794, acc=82.74% | Valid: loss=0.978, acc=77.70% |
+>>> Test on All Task:->>> Max_acc : 52.83%  Curr_acc : 50.81%<<<
+----------------------------------------------------------------------------------------------------
+>>> Test on task  0 - cifar10->>>0-1 : loss=1.301, acc=59.20% <<<
+>>> Test on task  1 - cifar10->>>2-3 : loss=1.709, acc=41.35% <<<
+>>> Test on task  2 - cifar10->>>4-5 : loss=1.747, acc=39.45% <<<
+>>> Test on task  3 - cifar10->>>6-7 : loss=1.369, acc=60.05% <<<
+>>> Test on task  4 - cifar10->>>8-9 : loss=1.317, acc=64.10% <<<
+****************************************************************************************************
+Accuracies =
+	95.00%  0.00%  0.00%  0.00%  0.00%
+	78.30% 75.20%  0.00%  0.00%  0.00%
+	80.30% 44.15% 63.30%  0.00%  0.00%
+	80.10% 42.45% 41.20% 67.20%  0.00%
+	59.20% 41.35% 39.45% 60.05% 64.10%
+****************************************************************************************************
+Done!
+2019-04-28 12:01:44 GPU  2
+====================================================================================================
+
+Process finished with exit code 0
