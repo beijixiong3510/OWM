@@ -21,3 +21,6 @@
 - [Progress & Compress: A scalable framework for continual learning](http://proceedings.mlr.press/v80/schwarz18a.html)
 
 - [Overcoming Catastrophic Forgetting with Hard Attention to the Task](http://proceedings.mlr.press/v80/serra18a.html)
+
+- [Overcoming catastrophic forgetting via model adaptation](https://openreview.net/pdf?id=ryGvcoA5YX)
+
