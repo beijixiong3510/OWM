@@ -1,5 +1,6 @@
 
 ## How to Run the Code
+System sequentially learn all 40 different, context-specific mapping rules with a single classifier.(91.43%)
 
 ```
 python train_cdp_OWM.py
