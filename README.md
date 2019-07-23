@@ -1,6 +1,9 @@
 # OWM (Orthogonal Weights Modification)
 - Code for paper *[Continual Learning of Context-dependent Processing in Neural Networks](https://arxiv.org/abs/1810.01256)*
 
+
+[![DOI](https://zenodo.org/badge/165808432.svg)](https://zenodo.org/badge/latestdoi/165808432)
+
 ## Requirements
 - Linux: Ubuntu 16.04
 
