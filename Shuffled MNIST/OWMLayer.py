@@ -13,7 +13,7 @@ class OWMLayer:
         self.alpha = alpha
         self.P = Variable((1.0/self.alpha)*torch.eye(self.input_size).type(dtype), volatile=True)
 
-    def force_learn(self, w, input_, learning_rate, alpha):  # input_(batch,input_size)
+    def force_learn(self, w, input_, learning_rate, alpha=1.0):  # input_(batch,input_size)
         self.r = torch.mean(input_, 0, True)
         self.k = torch.mm(self.P, torch.t(self.r))
         self.c = 1.0 / (alpha + torch.mm(self.r, self.k))  # 1X1
