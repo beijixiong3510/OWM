@@ -14,8 +14,9 @@ import torch.utils.data.distributed
 import torchvision.transforms as transforms
 import torchvision.models as models
 import scipy.io as scio
-from OWM.CHW.CHW_96_18_Norma.myresnet import *
-from OWM.CHW.CHW_96_18_Norma.gx_folder import *
+
+from OWM.CASIA_HWDB.CHW_ResNet18.myresnet import *
+from OWM.CASIA_HWDB.CHW_ResNet18.gx_folder import *
 
 model_names = sorted(name for name in models.__dict__
                      if name.islower() and not name.startswith("__")
