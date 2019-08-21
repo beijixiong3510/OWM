@@ -4,6 +4,8 @@
 [![DOI](https://zenodo.org/badge/165808432.svg)](https://zenodo.org/badge/latestdoi/165808432)
 
 ## Requirements
+### torch 0.3.0 (pytorch)
+
 - Linux: Ubuntu 16.04
 
 - cuda9.0 & cudnn6.0
@@ -13,8 +15,6 @@
 - tensorflow 1.5.0
 
 - tensorflow-gpu 1.4.0
-
-- torch 0.3.0 (pytorch)
 
 - torchvision 0.2.0
 
