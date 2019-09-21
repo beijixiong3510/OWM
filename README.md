@@ -36,7 +36,7 @@
 
 - [Tensorflow](https://github.com/tensorflow/models)
 
-- [Tensorflow and Chinese Handwritten Chinese Character Recognition](http://python.jobbole.com/87509/)
+- [Tensorflow and Chinese Handwritten Chinese Character Recognition](https://www.jianshu.com/p/27efcf38c0c9)
 
 
 
