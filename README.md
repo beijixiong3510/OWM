@@ -1,7 +1,7 @@
 # OWM (Orthogonal Weights Modification)
 - Code for paper *[Continual Learning of Context-dependent Processing in Neural Networks](https://www.nature.com/articles/s42256-019-0080-x)*. You can also get the free version from https://rdcu.be/bOaa3
 
-[![DOI](https://zenodo.org/badge/165808432.svg)](https://zenodo.org/badge/latestdoi/165808432)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3458626.svg)](https://doi.org/10.5281/zenodo.3458626)
 
 ## Requirements
 ### torch 0.3.0 (pytorch)
