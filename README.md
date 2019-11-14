@@ -4,7 +4,9 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3458626.svg)](https://doi.org/10.5281/zenodo.3458626)
 
 ## Requirements
-### torch 0.3.0 (pytorch)
+### If the environment configurations are different, the results may vary greatly. You may need to adjust the code details according to your needs. The possible reason is that the robustness of the algorithm is not good enough.
+
+- torch 0.3.0 (pytorch)
 
 - Linux: Ubuntu 16.04
 
