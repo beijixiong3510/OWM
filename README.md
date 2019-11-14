@@ -4,15 +4,16 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3458626.svg)](https://doi.org/10.5281/zenodo.3458626)
 
 ## Requirements
-### If the environment configurations are different, the results may vary greatly. You may need to adjust the code details according to your needs. The possible reason is that the robustness of the algorithm is not good enough.
 
-- torch 0.3.0 (pytorch)
+### If the environment configurations are different, the results may vary greatly  or even failing to work properly. You may need to adjust the code details according to your needs. 
 
 - Linux: Ubuntu 16.04
 
 - cuda9.0 & cudnn6.0
 
 - Python 3.5.4
+
+- torch 0.3.0 (pytorch)
 
 - tensorflow 1.5.0
 
