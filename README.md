@@ -3,6 +3,9 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3458626.svg)](https://doi.org/10.5281/zenodo.3458626)
 
+
+### There is a new version based on TF2  https://github.com/xuejianyong/OWM-tf2 provided by Dr. Jianyong Xue, and it basically reproduces our work. Thanks to all researchers who care about and support our work!
+
 ## Requirements
 
 ### If the environment configurations are different, the results may vary greatly  or even failing to work properly. You may need to adjust the code details according to your needs. 
